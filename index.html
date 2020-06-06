@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <link rel="icon" type="image/png" href="logo.png">
+        <title>universal paint</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="matter.js"></script>
+        <script src="p5.dom.min.js"></script>
+        <script src="p5.min.js"></script>
+        <script src="p5.sound.min.js"></script>
+        <script src="baseclass.js"></script>
+        <script src="baseclass2.js"></script>
+        <script src="brush.js"></script>
+        <script src="eraser.js"></script>
+    </head>
+    <body>
+        <input type="number" id="size" placeholder="size"></input>
+        <button onclick="cs()">set</button>
+        <script src="sketch.js"></script>
+   
+        <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.15.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.15.0/firebase-database.js"></script>
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyDtH2p2t_1UlAfSRiDAilvRNuVeD8pBmRk",
+    authDomain: "universal-painter.firebaseapp.com",
+    databaseURL: "https://universal-painter.firebaseio.com",
+    projectId: "universal-painter",
+    storageBucket: "universal-painter.appspot.com",
+    messagingSenderId: "236826900199",
+    appId: "1:236826900199:web:70e6f2f523b4dc1f045442"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+    </body>
+</html>
